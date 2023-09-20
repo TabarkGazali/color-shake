@@ -9,8 +9,13 @@
 1. Clone the repo: `git clone blah`
 2. Install the apache cordova plugin: `npm install -g cordova`
 3. Install the cordova shake plugin: `cordova plugin add cordova-plugin-shake`
-## How to run
+4. Install the cordova clear text plugin: `cordova plugin add cordova-cleartext`
+### How to run
+#### Android
 1. Download the project as a [zip file](https://github.com/voltbuilder/sample/archive/refs/heads/main.zip).
 2. [Upload to VoltBuilder](https://volt.build/upload/) using the Android option.
 3. Wait about a minute for it to finish.
 4. Install the apk that is returned onto your device.
+#### Web
+1. Open the `index.html` file in a web browser located in `www/index.html`
+2. Press the button to change color. Note shake will not work on browser (phone needed)
